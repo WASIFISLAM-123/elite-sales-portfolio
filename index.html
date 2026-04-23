@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alex Monroe | Elite Sales Expert & High-Ticket Closer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <!-- ═══ NAV ═══ -->
+    <nav id="navbar">
+        <div class="nav-logo">Alex<span>Monroe</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#results">Results</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#contact" class="nav-cta">Book a Call →</a>
+        <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#about" onclick="toggleMenu()">About</a>
+        <a href="#results" onclick="toggleMenu()">Results</a>
+        <a href="#services" onclick="toggleMenu()">Services</a>
+        <a href="#process" onclick="toggleMenu()">Process</a>
+        <a href="#testimonials" onclick="toggleMenu()">Testimonials</a>
+        <a href="#contact" onclick="toggleMenu()">Contact</a>
+        <a href="#contact" class="btn-primary" onclick="toggleMenu()">Book a Call →</a>
+    </div>
+
+    <!-- ═══ HERO ═══ -->
+    <section id="hero">
+        <div class="hero-orb orb1"></div>
+        <div class="hero-orb orb2"></div>
+
+        <div class="hero-badge">Available for New Clients</div>
+
+        <h1 class="hero-title">
+            I Help Businesses<br>
+            <span class="highlight">Close More Deals</span><br>
+            & Increase Revenue
+        </h1>
+
+        <p class="hero-sub">
+            <strong>Professional Sales Expert | High-Ticket Closer</strong><br>
+            Turning qualified leads into loyal, high-paying clients — consistently and predictably.
+        </p>
+
+        <div class="hero-btns">
+            <a href="#contact" class="btn-primary">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path
+                        d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.06 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.9v2.02z" />
+                </svg>
+                Book a Free Call
+            </a>
+            <a href="#results" class="btn-secondary">
+                View Results
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+            </a>
+        </div>
+
+        <div class="hero-stats">
+            <div class="hero-stat">
+                <div class="hero-stat-num">500+</div>
+                <div class="hero-stat-label">Deals Closed</div>
+            </div>
+            <div class="hero-stat-divider"></div>
+            <div class="hero-stat">
+                <div class="hero-stat-num">$8M+</div>
+                <div class="hero-stat-label">Revenue Generated</div>
+            </div>
+            <div class="hero-stat-divider"></div>
+            <div class="hero-stat">
+                <div class="hero-stat-num">100+</div>
+                <div class="hero-stat-label">Clients Served</div>
+            </div>
+            <div class="hero-stat-divider"></div>
+            <div class="hero-stat">
+                <div class="hero-stat-num">94%</div>
+                <div class="hero-stat-label">Close Rate</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ ABOUT ═══ -->
+    <section id="about">
+        <div class="about-grid">
+            <div class="about-img-wrap reveal">
+                <div class="about-img-placeholder">
+                    <div class="about-avatar-icon">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="1.5">
+                            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
+                            <circle cx="12" cy="7" r="4" />
+                        </svg>
+                    </div>
+                    <span style="font-size:0.75rem; color: #444;">Your Photo Here</span>
+                </div>
+                <div class="about-img-badge">
+                    <div class="about-img-badge-num">8+</div>
+                    <div class="about-img-badge-label">Years of<br>Experience</div>
+                </div>
+            </div>
+
+            <div class="about-content reveal">
+                <div class="section-label">About</div>
+                <h2 class="section-title">The <span>Closer</span> Behind<br>the Revenue</h2>
+                <span class="gold-line"></span>
+                <p class="section-sub" style="margin-bottom:24px;">I don't just sell — I engineer closing systems that
+                    convert
+                    at scale. With 8+ years in high-ticket sales across SaaS, coaching, real estate, and consulting,
+                    I've built a
+                    track record that speaks for itself.</p>
+                <p class="section-sub">My approach is simple: understand deeply, align precisely, and close confidently.
+                    No
+                    scripts. No pressure. Just results.</p>
+                <ul class="about-points" style="margin-top:32px;">
+                    <li>
+                        <span class="about-check">
+                            <svg viewBox="0 0 12 12" fill="none" stroke="#c9a84c" stroke-width="2.5">
+                                <path d="M2 6l3 3 5-5" />
+                            </svg>
+                        </span>
+                        High-ticket closer with verified $8M+ in tracked revenue
+                    </li>
+                    <li>
+                        <span class="about-check">
+                            <svg viewBox="0 0 12 12" fill="none" stroke="#c9a84c" stroke-width="2.5">
+                                <path d="M2 6l3 3 5-5" />
+                            </svg>
+                        </span>
+                        Trained 40+ closers across 3 continents
+                    </li>
+                    <li>
+                        <span class="about-check">
+                            <svg viewBox="0 0 12 12" fill="none" stroke="#c9a84c" stroke-width="2.5">
+                                <path d="M2 6l3 3 5-5" />
+                            </svg>
+                        </span>
+                        Specialized in offers from $5K to $150K+
+                    </li>
+                    <li>
+                        <span class="about-check">
+                            <svg viewBox="0 0 12 12" fill="none" stroke="#c9a84c" stroke-width="2.5">
+                                <path d="M2 6l3 3 5-5" />
+                            </svg>
+                        </span>
+                        Consistent 94%+ close rate on qualified leads
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ RESULTS ═══ -->
+    <section id="results">
+        <div class="results-header reveal">
+            <div class="section-label">Proof</div>
+            <h2 class="section-title">Numbers That <span>Speak</span></h2>
+            <p class="section-sub">Real results. Real revenue. Real transformation for businesses that chose to work
+                with a
+                professional.</p>
+        </div>
+
+        <div class="results-grid reveal">
+            <div class="result-card">
+                <div class="result-num" data-count="500" data-suffix="+">0+</div>
+                <div class="result-label">Deals Closed</div>
+                <div class="result-desc">Across multiple industries including SaaS, coaching, real estate, and
+                    consulting</div>
+            </div>
+            <div class="result-card">
+                <div class="result-num" data-count="8" data-prefix="$" data-suffix="M+">$0M+</div>
+                <div class="result-label">Revenue Generated</div>
+                <div class="result-desc">Trackable revenue directly attributed to sales strategy and high-ticket closing
+                </div>
+            </div>
+            <div class="result-card">
+                <div class="result-num" data-count="100" data-suffix="+">0+</div>
+                <div class="result-label">Clients Served</div>
+                <div class="result-desc">From solopreneurs to 7-figure agencies — transforming their closing process
+                </div>
+            </div>
+            <div class="result-card">
+                <div class="result-num" data-count="94" data-suffix="%">0%</div>
+                <div class="result-label">Average Close Rate</div>
+                <div class="result-desc">On qualified, booked calls — far exceeding the industry average of 20–30%</div>
+            </div>
+            <div class="result-card">
+                <div class="result-num" data-count="40" data-suffix="+">0+</div>
+                <div class="result-label">Closers Trained</div>
+                <div class="result-desc">Built and trained elite closing teams across 3 continents</div>
+            </div>
+            <div class="result-card">
+                <div class="result-num" data-count="150" data-prefix="$" data-suffix="K+">$0K+</div>
+                <div class="result-label">Highest Single Close</div>
+                <div class="result-desc">Proven ability to close premium, high-trust, long-cycle enterprise deals</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ SERVICES ═══ -->
+    <section id="services">
+        <div class="services-header reveal">
+            <div class="section-label">Services</div>
+            <h2 class="section-title">What I <span>Deliver</span></h2>
+            <p class="section-sub">Every engagement is tailored. Every outcome is measurable. Here's how I help you
+                grow.</p>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-card reveal">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="1.8">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                    </svg>
+                </div>
+                <div class="service-title">Sales Closing</div>
+                <p class="service-desc">I jump on your booked calls, qualify deep, handle every objection, and close on
+                    the
+                    spot. You focus on delivery — I handle the revenue.</p>
+                <span class="service-tag">High-Ticket Specialist</span>
+            </div>
+
+            <div class="service-card reveal">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="1.8">
+                        <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+                        <circle cx="9" cy="7" r="4" />
+                        <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" />
+                    </svg>
+                </div>
+                <div class="service-title">Lead Conversion</div>
+                <p class="service-desc">Turn cold and warm leads into paying clients through strategic follow-up
+                    sequences,
+                    value-based nurturing, and precision qualification frameworks.</p>
+                <span class="service-tag">Done-For-You</span>
+            </div>
+
+            <div class="service-card reveal">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="1.8">
+                        <path d="M18 20V10M12 20V4M6 20v-6" />
+                    </svg>
+                </div>
+                <div class="service-title">Funnel Optimization</div>
+                <p class="service-desc">Audit and redesign your sales funnel to eliminate revenue leaks, improve
+                    conversion at
+                    every stage, and maximize ROI from existing traffic and leads.</p>
+                <span class="service-tag">Strategy & Execution</span>
+            </div>
+
+            <div class="service-card reveal">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="1.8">
+                        <circle cx="12" cy="12" r="3" />
+                        <path
+                            d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83" />
+                    </svg>
+                </div>
+                <div class="service-title">Client Acquisition</div>
+                <p class="service-desc">Build a repeatable, scalable system for attracting and acquiring premium clients
+                    —
+                    combining outreach, positioning, and conversion architecture.</p>
+                <span class="service-tag">System Building</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ PROCESS ═══ -->
+    <section id="process">
+        <div class="process-header reveal">
+            <div class="section-label">How It Works</div>
+            <h2 class="section-title">The <span>Closing</span> Process</h2>
+            <p class="section-sub">A systematic approach that turns every conversation into a confident, ethical close.
+            </p>
+        </div>
+
+        <div class="process-steps">
+            <div class="process-step reveal">
+                <div class="step-num-wrap"><span class="step-num">01</span></div>
+                <h3 class="step-title">Understand</h3>
+                <p class="step-desc">Deep discovery into your offer, ideal client, current bottlenecks, and revenue
+                    goals. No
+                    assumptions — only precision.</p>
+            </div>
+            <div class="process-step reveal">
+                <div class="step-num-wrap"><span class="step-num">02</span></div>
+                <h3 class="step-title">Strategy</h3>
+                <p class="step-desc">Build a customized closing framework, objection map, and conversion system tailored
+                    to your
+                    specific market and offer.</p>
+            </div>
+            <div class="process-step reveal">
+                <div class="step-num-wrap"><span class="step-num">03</span></div>
+                <h3 class="step-title">Close Deals</h3>
+                <p class="step-desc">Execute the strategy on live calls, handle resistance with confidence, and convert
+                    qualified prospects into paying clients.</p>
+            </div>
+            <div class="process-step reveal">
+                <div class="step-num-wrap"><span class="step-num">04</span></div>
+                <h3 class="step-title">Scale</h3>
+                <p class="step-desc">Analyze data, optimize the process, and build repeatable systems that allow your
+                    revenue to
+                    scale without you being the bottleneck.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ TESTIMONIALS ═══ -->
+    <section id="testimonials">
+        <div class="testi-header reveal">
+            <div class="section-label">Testimonials</div>
+            <h2 class="section-title">What Clients <span>Say</span></h2>
+            <p class="section-sub">Real feedback from real business owners who scaled their revenue.</p>
+        </div>
+
+        <div class="testi-grid">
+            <div class="testi-card reveal">
+                <div class="testi-stars">★★★★★</div>
+                <p class="testi-quote">"Alex closed 3 deals in his first week with us — over $45K combined. He doesn't
+                    just
+                    close, he builds trust with every single prospect. Best investment we made this year."</p>
+                <div class="testi-author">
+                    <div class="testi-avatar">M</div>
+                    <div>
+                        <div class="testi-name">Marcus T.</div>
+                        <div class="testi-role">CEO, MarkScale Agency</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testi-card reveal">
+                <div class="testi-stars">★★★★★</div>
+                <p class="testi-quote">"Our funnel was leaking leads at the call stage. Alex rewrote our entire sales
+                    process
+                    and within 60 days we went from 25% to 78% close rate. Absolutely transformational."</p>
+                <div class="testi-author">
+                    <div class="testi-avatar">S</div>
+                    <div>
+                        <div class="testi-name">Sarah K.</div>
+                        <div class="testi-role">Founder, EliteCoach Pro</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testi-card reveal">
+                <div class="testi-stars">★★★★★</div>
+                <p class="testi-quote">"I hired Alex to train my team of 6 closers. Within 90 days, our collective
+                    revenue
+                    doubled. His frameworks are gold — simple, powerful, and they actually work in the real world."</p>
+                <div class="testi-author">
+                    <div class="testi-avatar">D</div>
+                    <div>
+                        <div class="testi-name">David R.</div>
+                        <div class="testi-role">Director, RealClose Group</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testi-card reveal">
+                <div class="testi-stars">★★★★★</div>
+                <p class="testi-quote">"Alex closed a $120,000 deal on the second call — a client I'd been nurturing for
+                    3
+                    months without success. His calm confidence and objection handling are on another level."</p>
+                <div class="testi-author">
+                    <div class="testi-avatar">J</div>
+                    <div>
+                        <div class="testi-name">Jessica M.</div>
+                        <div class="testi-role">CEO, JM Consulting</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testi-card reveal">
+                <div class="testi-stars">★★★★★</div>
+                <p class="testi-quote">"From zero closing system to a fully structured, repeatable revenue machine. Alex
+                    didn't
+                    just work with us — he elevated our entire sales culture. ROI was 14x in 4 months."</p>
+                <div class="testi-author">
+                    <div class="testi-avatar">R</div>
+                    <div>
+                        <div class="testi-name">Ryan B.</div>
+                        <div class="testi-role">Partner, BluePeak SaaS</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testi-card reveal">
+                <div class="testi-stars">★★★★★</div>
+                <p class="testi-quote">"Working with Alex was a turning point. He helped us reframe our offer, fix our
+                    pitch,
+                    and close our first $50K client within 3 weeks. If you're on the fence — don't be."</p>
+                <div class="testi-author">
+                    <div class="testi-avatar">A</div>
+                    <div>
+                        <div class="testi-name">Aisha N.</div>
+                        <div class="testi-role">Founder, Nexora Digital</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ CTA ═══ -->
+    <section id="cta">
+        <div class="cta-inner reveal">
+            <div class="section-label" style="justify-content:center;">Limited Availability</div>
+            <h2 class="cta-title">Ready to <span>Scale</span><br>Your Sales?</h2>
+            <p class="cta-sub">I only work with 5 new clients per month to ensure elite, personalized attention. Spots
+                fill
+                fast — secure yours today.</p>
+            <a href="#contact" class="btn-primary" style="font-size:1rem; padding:18px 44px;">
+                Book Your Free Strategy Call
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+            </a>
+            <div class="cta-guarantee">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="2.5">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                </svg>
+                No commitment. No fluff. Just a real conversation about your growth.
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ CONTACT ═══ -->
+    <section id="contact">
+        <div class="contact-grid">
+            <div class="reveal">
+                <div class="section-label">Contact</div>
+                <h2 class="section-title">Let's <span>Talk</span><br>Revenue</h2>
+                <span class="gold-line"></span>
+                <p class="section-sub" style="margin-bottom:40px;">Ready to close more deals? Book a free 30-minute
+                    strategy
+                    call or send me a message. I respond within 24 hours.</p>
+
+                <div class="contact-info-item">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="1.8">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                            <path d="M22 6l-10 7L2 6" />
+                        </svg>
+                    </div>
+                    <div>
+                        <div class="contact-info-label">Email</div>
+                        <div class="contact-info-value">alex@alexmonroe.com</div>
+                    </div>
+                </div>
+
+                <div class="contact-info-item">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="1.8">
+                            <path
+                                d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.06 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.9v2.02z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <div class="contact-info-label">WhatsApp</div>
+                        <div class="contact-info-value">+1 (555) 000-0000</div>
+                    </div>
+                </div>
+
+                <div class="contact-info-item">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="1.8">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M12 6v6l4 2" />
+                        </svg>
+                    </div>
+                    <div>
+                        <div class="contact-info-label">Response Time</div>
+                        <div class="contact-info-value">Within 24 hours</div>
+                    </div>
+                </div>
+
+                <a href="https://wa.me/15550000000" target="_blank" class="whatsapp-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                    </svg>
+                    Message on WhatsApp
+                </a>
+            </div>
+
+            <div class="reveal">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>First Name</label>
+                            <input type="text" name="firstName" placeholder="John" required />
+                        </div>
+                        <div class="form-group">
+                            <label>Last Name</label>
+                            <input type="text" name="lastName" placeholder="Smith" required />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" name="email" placeholder="john@company.com" required />
+                    </div>
+                    <div class="form-group">
+                        <label>Company / Business</label>
+                        <input type="text" name="company" placeholder="Your company name" required />
+                    </div>
+                    <div class="form-group">
+                        <label>I'm interested in</label>
+                        <select name="service" required>
+                            <option value="">Select a service...</option>
+                            <option value="sales-closing">Sales Closing (Done-For-You)</option>
+                            <option value="lead-conversion">Lead Conversion System</option>
+                            <option value="funnel-optimization">Funnel Optimization</option>
+                            <option value="client-acquisition">Client Acquisition Strategy</option>
+                            <option value="closer-training">Closer Training & Coaching</option>
+                            <option value="sales-team-build">Full Sales Team Build-Out</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Monthly Revenue</label>
+                        <select name="revenue" required>
+                            <option value="">Select range...</option>
+                            <option value="0-10k">$0 – $10K/month</option>
+                            <option value="10k-50k">$10K – $50K/month</option>
+                            <option value="50k-150k">$50K – $150K/month</option>
+                            <option value="150k-plus">$150K+ /month</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Your Message</label>
+                        <textarea name="message"
+                            placeholder="Tell me about your current situation and what you're looking to achieve..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="form-submit" onclick="submitForm(event)">Send Message & Book a Call
+                        →</button>
+                    <div class="form-success" id="formSuccess">
+                        ✓ Message sent! I'll be in touch within 24 hours to confirm your call.
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ FOOTER ═══ -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-logo">Alex<span>Monroe</span></div>
+            <ul class="footer-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#results">Results</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="footer-copy">© 2025 Alex Monroe. All rights reserved.</div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
